@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { colors } from "../global"
+import { colors } from "../../global"
 
 const HeaderContainer = styled.div`
 display: flex;
