@@ -20,9 +20,11 @@ export default function About() {
     }, []);
     const isMobile = width <= 768;
 
-    return (<>
-        <AboutBody />
-        {isMobile ? <MobileFooter /> : <Footer />}
-    </>)
+    return (
+        <>
+            <AboutBody />
+            {isMobile ? <MobileFooter /> : <Footer />}
+        </>
+    )
 
 };
