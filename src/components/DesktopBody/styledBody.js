@@ -11,6 +11,7 @@ position: absolute;
 z-index: 1;
 display: flex;
 flex-direction: column;
+gap: 64px;
 justify-content: center;
 width: 100%;
 padding-top: 32px;
@@ -53,5 +54,11 @@ width: 300px;
 height: 600px;
 filter: drop-shadow(10px 14px 16px rgba(0, 0, 0, 0.25));
 `
+const Label = styled.span`
+font-weight: 600;
+font-size: 32px;
+text-align: center;
+color: ${colors.secondary};
 
-export { BodyBackground, BodyContainer, Col, Row, Title, Slogan, PhoneFrame }
+`
+export { BodyBackground, BodyContainer, Col, Row, Title, Slogan, PhoneFrame, Label }
