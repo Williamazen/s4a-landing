@@ -5,7 +5,7 @@ import { BsGooglePlay, BsApple } from 'react-icons/bs';
 import { links } from '../../global';
 
 
-export default function AltHeader() {
+export default function AboutBody() {
 
     return (
         <>
