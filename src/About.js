@@ -1,11 +1,11 @@
 import './reset.css'
 import { useEffect, useState } from 'react';
-import About from './components/About';
+import AboutBody from './components/AboutBody';
 import Footer from './components/Footer';
 import MobileFooter from './components/MobileFooter';
 
 
-export default function App() {
+export default function About() {
 
     // Mobile detection
     const [width, setWidth] = useState(window.innerWidth);
@@ -20,9 +20,11 @@ export default function App() {
     }, []);
     const isMobile = width <= 768;
 
-    return (<>
-        <About />
-        {isMobile ? <MobileFooter /> : <Footer />}
-    </>)
+    return (
+        <>
+            <AboutBody />
+            {isMobile ? <MobileFooter /> : <Footer />}
+        </>
+    )
 
 };

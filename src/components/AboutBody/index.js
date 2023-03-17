@@ -5,7 +5,7 @@ import { BsGooglePlay, BsApple } from 'react-icons/bs';
 import { links } from '../../global';
 
 
-export default function AltHeader() {
+export default function AboutBody() {
 
     return (
         <>
@@ -38,7 +38,7 @@ export default function AltHeader() {
 
                     <SubTitle>Locais</SubTitle>
                     <Highlights>
-                        A Spaces4All foca a utilização de espaços públicos urbanos, incluindo:
+                        A Spaces4All foca a utilização de espaços públicos urbanos, incluindo:<br /><br />
                         Jardins e parques públicos:
                     </Highlights>
                     <Text>
