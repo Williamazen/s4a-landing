@@ -6,9 +6,10 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: center;
+flex-wrap: wrap;
 border-top: 1px solid rgba(0,0,0,0.15);
 padding-top: 16px;
-gap: 32px;
+gap: 64px;
 `
 const Card = styled.div`
 width: 100px;
@@ -19,8 +20,9 @@ align-items: center;
 justify-content: center;
 `
 const Logo = styled.img`
-width: 100px;
-height: 100px;
+width: ${props => props.width + "px"};
+height: ${props => props.height + "px"};
+padding-left: ${props => props.padding && props.padding + "px"};
 `
 const Line = styled.div`
 width: 100%;

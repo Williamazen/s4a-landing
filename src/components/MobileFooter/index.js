@@ -1,6 +1,6 @@
 import { Background, Container, LogoRow, CopyrightText, Logo } from './StyledFooter';
 import Socials from '../Socials';
-
+import { language } from '../../global';
 
 export default function MobileFooter() {
     return (
@@ -15,7 +15,7 @@ export default function MobileFooter() {
                     <Logo src='./text.svg' height={100} width={100} />
                 </LogoRow>
                 <CopyrightText>
-                    © 2023. LICENÇA DE ATRIBUIÇÃO SEM DERIVAÇÕES 4.0 INTERNACIONAL DA CREATIVE COMMONS..
+                    {language.text.copyright}
                 </CopyrightText>
             </Container>
         </Background>

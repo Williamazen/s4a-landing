@@ -32,11 +32,12 @@ gap: ${props => props.gap + "px"};
 background-color: transparent;
 justify-content: center;
 align-items: flex-start;
+
 `
 const Title = styled.div`
 max-height: 500px;
 font-weight: 700;
-font-size: 32px;
+font-size: 36px;
 text-align: center;
 color: #FFFFFF;
 line-height: 38px;
@@ -44,7 +45,7 @@ letter-spacing: -0.03em;
 `
 const Slogan = styled.div`
 
-font-size: 12px;
+font-size: 13px;
 text-align: center;
 color: #FFFFFF;
 `
