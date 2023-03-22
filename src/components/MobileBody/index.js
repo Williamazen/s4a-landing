@@ -1,6 +1,6 @@
 import { BodyBackground, BodyContainer, Col, Row, Title, Slogan, PhoneFrame, Label } from "./styledBody"
 import DownloadButton from "../DonwloadButton"
-import { links, colors } from "../../global"
+import { links, colors, language } from "../../global"
 import { BsGooglePlay, BsApple } from 'react-icons/bs';
 import PartnerRow from "../PartnerRow";
 import MobileFooter from "../MobileFooter";
@@ -14,24 +14,24 @@ export default function DesktopBody(props) {
                     <Col gap={32}>
                         <Col gap={8}>
                             <Title>
-                                A beleza de Lisboa acessível a <span style={{ color: colors.secondary }}>todos.</span>
+                                {language.text.mainTitle}<span style={{ color: colors.secondary }}> {language.text.titleHighlight}</span>
                             </Title>
                             <Slogan>
-                                Mais de 50 localidades mapeadas pensando em você.
+                                {language.text.subTitle}
                             </Slogan>
                         </Col>
                         <Col gap={8}>
                             <Row gap={8}>
-                                <DownloadButton href={links.playStore} size={13} label="Google Play" icon={<BsGooglePlay size={"24px"} />} />
-                                <DownloadButton href={links.appStore} size={16} label="App Store" icon={<BsApple size={"24px"} />} />
+                                <DownloadButton href={links.playStore} size={13} label="Google Play" icon={<BsGooglePlay size={"24px"} />} role={language.alt.buttons.googlePlay} />
+                                <DownloadButton href={links.appStore} size={16} label="App Store" icon={<BsApple size={"24px"} />} role={language.alt.buttons.appStore} />
                             </Row>
-                            <WideButton href="/about" size={17} label="Saiba Mais" />
+                            <WideButton href="/about" size={17} label={language.text.moreInfoButton} />
                         </Col>
-                        <PhoneFrame src="./smartphone.png" />
+                        <PhoneFrame src="./smartphone.png" alt={language.alt.screenshot} />
                     </Col>
                     <Row>
                         <Col gap={16}>
-                            <Label>Parcerias</Label>
+                            <Label>{language.text.partners}</Label>
                             <PartnerRow />
                         </Col>
                     </Row>

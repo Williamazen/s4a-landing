@@ -1,3 +1,6 @@
+import en from './locale/en';
+import pt from './locale/pt';
+
 const colors = {
     "primary": "#1DA492",
     "onSecondary": "#FFFFFF",
@@ -13,4 +16,7 @@ const links = {
     "email": "mailto:danielalves@ambigrama.pt?subject=Spaces4Us%20-%20Contacto",
 }
 
-export { colors, links }
+const locale = navigator.language.split('-')[0]
+const language = locale === "pt" ? pt : en;
+
+export { colors, links, language }

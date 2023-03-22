@@ -25,8 +25,6 @@ flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 gap: 8px;
-
-
 `
 const CopyrightText = styled.span`
 font-style: italic;
