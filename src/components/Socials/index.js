@@ -9,7 +9,7 @@ export default function Socials(props) {
         <SocialRow {...props}>
             <Link href={links.instagram} target="_blank" role="Instagram" > <AiFillInstagram /></Link>
             <Link href={links.facebook} target="_blank" role="Facebook"> <FaFacebookSquare /></Link>
-            <Link href={links.email} target="_blank" role="email"> <MdMail /></Link>
+            <Link href={links.email} target="_blank" role="email" > <MdMail /></Link>
         </SocialRow>
     )
 }
