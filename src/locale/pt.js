@@ -50,7 +50,7 @@ const pt = {
                 "A solução digital considera a verificação e construção de acessibilidade aos locais públicos urbanos do concelho de Lisboa, focando os nossos esforços em apoiar pessoas com deficiências visuais, auditivas e motoras."
             ],
             "No concelho de Lisboa existem diversos espaços verdes de uso livre para todos, onde é possível passear e, observar a biodiversidade da fauna e flora, e vislumbrar as belas paisagens da capital portuguesa. Um local de encontros, para convívio com família ou amigos. Os jardins e parques urbanos são áreas verdes que podem trazer qualidade de vida para toda a população. Realizar atividades neles traz diferentes benefícios psicológicos, sociais e físicos à saúde.",
-            "Nos últimos anos, cada vez mais turistas passeiam pelos vários túmulos e mausoléus dos cemitérios portugueses. Nestes existem peças com uma arquitetura diferente e, apesar do que simbolizam, apelativa. Os cemitérios de Lisboa são locais uma grande riqueza patrimonial e cultural que poucas pessoas conhecem.",
+            "Nos últimos anos, cada vez mais turistas passeiam pelos vários túmulos e mausoléus dos cemitérios portugueses. Nestes existem peças com uma arquitetura diferente e, apesar do que simbolizam, apelativa. Os cemitérios de Lisboa são locais de uma grande riqueza patrimonial e cultural que poucas pessoas conhecem.",
             "Se tens interesse no projeto, segue-nos nas nossas redes sociais:",
             "Ou descarregue a app e experimente:"
         ]
