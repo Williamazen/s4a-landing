@@ -2,13 +2,14 @@ const pt = {
     text: {
         mainTitle: "A beleza de Lisboa acessível a ",
         titleHighlight: "Todos.",
+        fullTitle: "A beleza de Lisboa acessível a Todos.",
         subTitle: "Mais de 50 localidades mapeadas pensando em você.",
         moreInfoButton: "Saiba Mais",
         partners: "Parcerias",
         copyright: "©" + new Date().getFullYear() + ". LICENÇA DE ATRIBUIÇÃO SEM DERIVAÇÕES 4.0 INTERNACIONAL DA CREATIVE COMMONS."
     },
     alt: {
-        logo: "Logo Spaces 4 all",
+        logo: "Logo 'spaces for all' click para retornar ao início",
         screenshot: "Captura de ecrã mostrando a funcionalidades de geolocalização applicação",
         buttons: {
             googlePlay: "Link para pagina da Google Play",
@@ -29,7 +30,7 @@ const pt = {
 
     },
     about: {
-        mainTitle: "Oque é a Spaces4All?",
+        mainTitle: "Oque é a Spaces4All ?",
         title: [
             "Introdução",
             "O Projeto",

@@ -2,13 +2,14 @@ const en = {
     text: {
         mainTitle: "Lisbon's Beauty Accessible To ",
         titleHighlight: "All.",
+        fullTitle: "Lisbon's Beauty Accessible To All.",
         subTitle: "More than 50 locations mapped thinking of you",
         moreInfoButton: "More info",
         partners: "Partners",
         copyright: "©" + new Date().getFullYear() + ". Creative Commons Attribution No Derivatives 4.0 International"
     },
     alt: {
-        logo: "Spaces 4 all Logo",
+        logo: "Spaces 4 all Logo - Click to return to the main page",
         screenshot: "Screenshot showing off the app's geolocation features",
         buttons: {
             googlePlay: "Google Play link",

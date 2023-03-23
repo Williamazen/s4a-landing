@@ -9,7 +9,7 @@ export default function AboutBody() {
     return (
         <>
             <Background>
-                <Link href='/'><Logo src='./logo.png' /></Link>
+                <Link href='/' aria-label={language.alt.logo}><Logo src='./logo.png' aria-hidden /></Link>
             </Background>
             <Row>
                 <Container>
@@ -38,7 +38,7 @@ export default function AboutBody() {
                         {language.about.text[2]}
                     </Text>
                     <Highlights>
-                        Cemitérios:
+                        {language.about.highlights[2]}
                     </Highlights>
                     <Text>
                         {language.about.text[3]}

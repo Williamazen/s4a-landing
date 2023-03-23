@@ -17,7 +17,7 @@ export default function DesktopBody(props) {
                         <Col gap={16}>
                             <Col gap={8}>
                                 <Title>
-                                    {language.text.mainTitle}<span style={{ color: colors.secondary }}> {language.text.titleHighlight}</span>
+                                    {language.text.mainTitle} <bold style={{ color: colors.secondary }}> {language.text.titleHighlight}</bold>
                                 </Title>
                                 <Slogan>
                                     {language.text.subTitle}
@@ -25,14 +25,14 @@ export default function DesktopBody(props) {
                             </Col>
                             <Col gap={8}>
                                 <Row gap={8}>
-                                    <DownloadButton href={links.playStore} size={13} label="Google Play" icon={<BsGooglePlay size={"24px"} />} role={language.alt.buttons.googlePlay} />
-                                    <DownloadButton href={links.appStore} size={16} label="App Store" icon={<BsApple size={"24px"} />} role={language.alt.buttons.appStore} />
+                                    <DownloadButton href={links.playStore} size={13} label="Google Play" icon={<BsGooglePlay size={"24px"} />} />
+                                    <DownloadButton href={links.appStore} size={16} label="App Store" icon={<BsApple size={"24px"} />} />
                                 </Row>
                                 <WideButton href="/about" size={17} label={language.text.moreInfoButton} />
                             </Col>
                         </Col>
 
-                        <PhoneFrame src="./smartphone.png" alt={language.alt.screenshot} />
+                        <PhoneFrame role="image" src="./smartphone.png" alt={language.alt.screenshot} />
                     </Row>
                     <Row>
                         <Col gap={16}>
