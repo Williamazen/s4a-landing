@@ -4,9 +4,9 @@ import { language } from "../../global"
 export default function Header(props) {
     return (
 
-        <HeaderContainer>
-            <Link href="/">
-                <HeaderBody isMobile={props.isMobile} src='./logo.png' alt={language.alt.logo} />
+        <HeaderContainer >
+            <Link href="/" aria-label={language.alt.logo}>
+                <HeaderBody isMobile={props.isMobile} src='./logo.png' aria-hidden />
             </Link>
         </HeaderContainer>
 
