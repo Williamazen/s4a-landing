@@ -30,29 +30,29 @@ const en = {
 
     },
     about: {
-        mainTitle: "What is Spaces4All?",
+        mainTitle: <>What is <span lang="en"> Spaces4All </span>?</>,
         title: [
-            "Introduction",
-            "The Project",
-            "Locations",
-            "Help the project"
+            <>Introduction</>,
+            <>The Project</>,
+            <>Locations</>,
+            <>Help the project</>
         ],
         highlights: [
-            "Spaces4all focus on urban spaces including:",
-            "Public Parks and Gardens:",
-            "Graveyards:"
+            <><span lang="en"> Spaces4All </span> focus on urban spaces including:</>,
+            <>Public Parks and Gardens:</>,
+            <>Graveyards:</>
         ],
         text: [
-            "The Spaces4All project is a digital solution designed to help people with visual, auditory, and motor impairments safely explore urban public spaces in Lisbon. The project offers detailed maps and handcrafted cultural itineraries, enabling individuals with disabilities to experience the beauty of Lisbon with ease.",
+            <>The <span lang="en"> Spaces4All </span> project is a digital solution designed to help people with visual, auditory, and motor impairments safely explore urban public spaces in Lisbon. The project offers detailed maps and handcrafted cultural itineraries, enabling individuals with disabilities to experience the beauty of Lisbon with ease.</>,
             [
-                "The primary focus of Spaces4All is to enhance access to public spaces for people with visual, hearing, and motor disabilities. The app supports and accompanies movement within public spaces using GPS navigation and visual accessibility tools and software, making it easier for individuals to safely navigate through the city.",
-                "The project places special emphasis on providing access to urban public spaces such as gardens, parks, and cemeteries, allowing individuals to enjoy the cultural dimension of these places. The digital solution verifies and constructs accessibility to these urban public places, with a focus on supporting people with disabilities."
+                <>The primary focus of <span lang="en"> Spaces4All </span> is to enhance access to public spaces for people with visual, hearing, and motor disabilities. The app supports and accompanies movement within public spaces using GPS navigation and visual accessibility tools and software, making it easier for individuals to safely navigate through the city.</>,
+                <>The project places special emphasis on providing access to urban public spaces such as gardens, parks, and cemeteries, allowing individuals to enjoy the cultural dimension of these places. The digital solution verifies and constructs accessibility to these urban public places, with a focus on supporting people with disabilities.</>
 
             ],
-            "Lisbon is home to several green spaces, including gardens, parks, and cemeteries that are free for all to use. These areas offer a chance to observe the local fauna and flora, take in the stunning landscapes of the Portuguese capital, and socialize with friends and family. Engaging in activities within these spaces brings a range of psychological, social, and physical health benefits.",
-            "In recent years, an increasing number of tourists have been visiting Portuguese cemeteries to explore the unique architecture and historical significance of the tombs and mausoleums.",
-            "To stay updated on the Spaces4All project, follow us on our social media channels:",
-            "or download the app to experience the beauty of Lisbon's public spaces for yourself.:"
+            <>Lisbon is home to several green spaces, including gardens, parks, and cemeteries that are free for all to use. These areas offer a chance to observe the local fauna and flora, take in the stunning landscapes of the Portuguese capital, and socialize with friends and family. Engaging in activities within these spaces brings a range of psychological, social, and physical health benefits.</>,
+            <>In recent years, an increasing number of tourists have been visiting Portuguese cemeteries to explore the unique architecture and historical significance of the tombs and mausoleums.</>,
+            <>To stay updated on the <span lang="en"> Spaces4All </span> project, follow us on our social media channels:</>,
+            <>or download the app to experience the beauty of Lisbon's public spaces for yourself.:</>
         ]
     }
 }

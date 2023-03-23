@@ -14,7 +14,6 @@ export default function AboutBody() {
             <Row>
                 <Container>
                     <MainTitle>{language.about.mainTitle}</MainTitle>
-
                     <SubTitle>{language.about.title[0]}</SubTitle>
                     <Text>
                         {language.about.text[0]}
