@@ -12,12 +12,12 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <App lang={navigator.language.split('-')[0] === "pt" ? "pt" : "en"} />,
     errorElement: <ErrorPage />,
   },
   {
     path: "/about",
-    element: <About />,
+    element: <About lang={navigator.language.split('-')[0] === "pt" ? "pt" : "en"} />,
     errorElement: <ErrorPage />,
   }
 ]);
@@ -26,7 +26,7 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 

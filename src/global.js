@@ -16,7 +16,7 @@ const links = {
     "email": "mailto:danielalves@ambigrama.pt?subject=Spaces4Us%20-%20Contacto",
 }
 
-const locale = navigator.language.split('-')[0]
+const locale = navigator.language.split('-')[0] === "pt" ? "pt" : "en"
 const language = locale === "pt" ? pt : en;
 
-export { colors, links, language }
+export { colors, links, language, locale }

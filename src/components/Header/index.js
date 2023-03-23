@@ -1,11 +1,11 @@
 import { HeaderContainer, HeaderBody, Link } from "./styledHeader"
-import { language } from "../../global"
+import { language, locale } from "../../global"
 
 export default function Header(props) {
     return (
 
-        <HeaderContainer >
-            <Link href="/" aria-label={language.alt.logo}>
+        <HeaderContainer  >
+            <Link href="/" aria-label={language.alt.logo} lang={locale}>
                 <HeaderBody isMobile={props.isMobile} src='./logo.png' aria-hidden />
             </Link>
         </HeaderContainer>
