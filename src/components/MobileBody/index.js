@@ -13,7 +13,7 @@ export default function DesktopBody(props) {
                 <BodyContainer>
                     <Col gap={32}>
                         <Col gap={8}>
-                            <Title aria-label="Main Title">
+                            <Title aria-label={language.text.mainTitle}>
                                 {language.text.mainTitle}<span style={{ color: colors.secondary }}> {language.text.titleHighlight}</span>
                             </Title>
                             <Slogan>
