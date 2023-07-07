@@ -2,7 +2,7 @@ import { BodyBackground, BodyContainer, Col, Row, Title, Slogan, PhoneFrame, Lab
 import DownloadButton from "../DonwloadButton"
 import BackgroundShape from "../BackgroundShape"
 import { links, colors, language } from "../../global"
-import { BsGooglePlay, BsApple } from 'react-icons/bs';
+import { BsGooglePlay, BsApple, BsGithub } from 'react-icons/bs';
 import WideButton from "../WideButton";
 import PartnerRow from "../PartnerRow";
 import Footer from "../Footer";
@@ -23,19 +23,20 @@ export default function DesktopBody(props) {
                                     {language.text.subTitle}
                                 </Slogan>
                             </Col>
-                            <Col gap={8}>
-                                <Row gap={8}>
-                                    <DownloadButton href={links.playStore} size={13} label="Google Play" icon={<BsGooglePlay size={"24px"} />} />
-                                    <DownloadButton href={links.appStore} size={16} label="App Store" icon={<BsApple size={"24px"} />} />
+                            <Col gap={8} >
+                                <Row gap={8} >
+                                    {/*<DownloadButton href={links.appStore} size={16} label="App Store" icon={<BsApple size={"24px"} />} />*/}
+                                    <DownloadButton href={links.playStore} size={13} label="Google Play" icon={<BsGooglePlay size={"24px"} />} disabled />
+                                    <DownloadButton href={links.github} size={16} label="GitHub" icon={<BsGithub size={"24px"} />} />
                                 </Row>
                                 <WideButton href="/about" size={17} label={language.text.moreInfoButton} />
                             </Col>
                         </Col>
 
-                        <PhoneFrame role="image" src="./smartphone.png" alt={language.alt.screenshot} />
+                        <PhoneFrame role="image" src="./images/smartphone.png" alt={language.alt.screenshot} />
                     </Row>
                     <Row>
-                        <Col gap={16}>
+                        <Col gap={16} width={100}>
                             <Label> {language.text.partners}</Label>
                             <PartnerRow />
                         </Col>

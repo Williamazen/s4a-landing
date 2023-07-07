@@ -4,7 +4,7 @@ import styled from "styled-components"
 const DownloadButtonContainer = styled.a`
 height: 30px;
 width: 100%;
-padding: 6px 0;
+padding: 6px 0px;
 text-decoration: none;
 display: flex;
 flex-direction: row;
@@ -26,6 +26,8 @@ justify-content: center;
   -webkit-filter: brightness(50%);
   transition: all 0.1s ease;
 }
+align-items: center;
+justify-content: space-around;
 `
 const ButtonLabel = styled.span`
 font-weight: ${props => props.weight};

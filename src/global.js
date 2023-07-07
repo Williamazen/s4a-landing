@@ -14,6 +14,7 @@ const links = {
     "instagram": "https://www.instagram.com/ambigramapt/",
     "facebook": "https://facebook.com/ambigramaportugal/",
     "email": "mailto:danielalves@ambigrama.pt?subject=Spaces4Us%20-%20Contacto",
+    "github": "https://github.com/Williamazen/spaces4all"
 }
 
 const locale = navigator.language.split('-')[0] === "pt" ? "pt" : "en"

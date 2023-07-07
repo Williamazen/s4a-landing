@@ -18,7 +18,8 @@ const pt = {
         partners: {
             CNOD: "Logo da C N O D, Confederação Nacional de Organizações de Pessoas com Deficiência",
             CPL: "Logo da Casa Pia Lisboa, tem por missão integrar crianças e adolescentes, designadamente as desprovidas de meio familiar adequado",
-            APD: "Logo da A P D, Associação Portuguesa de Deficientes"
+            APD: "Logo da A P D, Associação Portuguesa de Deficientes",
+            FPDD: "Logo da F P D D, A Federação Portuguesa de Desporto para Pessoas com Deficiência (FPDD) é uma Federação multidesportiva, dotada de Utilidade Pública Desportiva, constituída sob a forma de Associação sem fins lucrativos que prossegue a nível nacional o desenvolvimento da prática cumulativa de diversas modalidades desportivas no âmbito do desporto para as pessoas com deficiência, em articulação e no respeito pelas Associações Nacionais por área de deficiência suas filiadas. Tem, ainda, o estatuto de organização não governamental de pessoas com deficiência (ONGPD)."
         },
         investors: {
             ambigrama: "Logo da Ambigrama",
@@ -47,7 +48,8 @@ const pt = {
             [
                 <>A <span lang="en"> Spaces4All </span> foca o acesso a espaços públicos, por parte de pessoas com deficiências visuais, auditivas e motoras, com segurança e qualidade, apoiando e acompanhando a deslocação dentro dos espaços públicos, recorrendo a navegação GPS do local utilizando ferramentas e software de acessibilidade visuais, escritos e sonoros.</>,
                 <>Focamos o acesso a espaços públicos urbanos (jardins, parques, cemitérios, etc.…) e a navegação dentro dos mesmos, com um foco na dimensão cultural dos locais.</>,
-                <>A solução digital considera a verificação e construção de acessibilidade aos locais públicos urbanos do concelho de Lisboa, focando os nossos esforços em apoiar pessoas com deficiências visuais, auditivas e motoras.</>
+                <>A solução digital considera a verificação e construção de acessibilidade aos locais públicos urbanos do concelho de Lisboa, focando os nossos esforços em apoiar pessoas com deficiências visuais, auditivas e motoras.</>,
+                <>Este projeto inovador cria-te um roteiro pré-definido, com interesse cultural, dos espaços públicos mais conhecidos de Lisboa, e permite uma ativação desportiva, uma maneira de praticar atividades físicas e aprender mais sobre estes espaços, a cidade e o país.</>
             ],
             <>No concelho de Lisboa existem diversos espaços verdes de uso livre para todos, onde é possível passear e, observar a biodiversidade da fauna e flora, e vislumbrar as belas paisagens da capital portuguesa. Um local de encontros, para convívio com família ou amigos. Os jardins e parques urbanos são áreas verdes que podem trazer qualidade de vida para toda a população. Realizar atividades neles traz diferentes benefícios psicológicos, sociais e físicos à saúde.</>,
             <>Nos últimos anos, cada vez mais turistas passeiam pelos vários túmulos e mausoléus dos cemitérios portugueses. Nestes existem peças com uma arquitetura diferente e, apesar do que simbolizam, apelativa. Os cemitérios de Lisboa são locais de uma grande riqueza patrimonial e cultural que poucas pessoas conhecem.</>,

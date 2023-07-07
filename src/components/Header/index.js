@@ -6,7 +6,7 @@ export default function Header(props) {
 
         <HeaderContainer  >
             <Link href="/" aria-label={language.alt.logo} lang={locale}>
-                <HeaderBody isMobile={props.isMobile} src='./logo.png' aria-hidden />
+                <HeaderBody isMobile={props.isMobile} src='./images/logo.png' aria-hidden />
             </Link>
         </HeaderContainer>
 

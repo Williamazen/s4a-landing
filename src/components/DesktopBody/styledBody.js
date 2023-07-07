@@ -24,6 +24,7 @@ padding: 8px;
 background-color: transparent;
 justify-content: center;
 align-items: center;
+width: ${props => props.width + "%"};;
 `
 const Row = styled.div`
 display: flex;
@@ -32,6 +33,9 @@ gap: ${props => props.gap + "px"};
 background-color: transparent;
 justify-content: center;
 align-items: flex-start;
+flex-wrap: wrap;
+
+width: 100%;
 `
 const Title = styled.div`
 max-width: 500px;

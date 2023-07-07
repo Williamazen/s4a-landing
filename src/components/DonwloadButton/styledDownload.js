@@ -9,10 +9,9 @@ padding: 6px 12px;
 background-color: ${colors.secondary};
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 6px;
-color: ${colors.onSecondary};
+color: ${(props => props.disabled ? "#bbbbbb" : colors.onSecondary)};
 gap: 8px;
 height: 30px;
-align-items: center;
 -webkit-filter: brightness(100%);
 &:hover,
 :focus{
@@ -24,6 +23,9 @@ align-items: center;
   -webkit-filter: brightness(50%);
   transition: all 0.1s ease;
 }
+align-items: center;
+pointer-events: ${(props => props.disabled ? "none" : "all")};
+-webkit-filter:${(props => props.disabled ? "grayscale(60%)" : "")}; 
 `
 const ButtonLabel = styled.span`
 font-weight: ${props => props.weight};

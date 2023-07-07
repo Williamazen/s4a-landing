@@ -9,7 +9,7 @@ export default function AboutBody() {
     return (
         <>
             <Background>
-                <Link href='/' aria-label={language.alt.logo}><Logo src='./logo.png' aria-hidden /></Link>
+                <Link href='/' aria-label={language.alt.logo}><Logo src='./images/logo.png' aria-hidden /></Link>
             </Background>
             <Row>
                 <Container>
@@ -26,6 +26,8 @@ export default function AboutBody() {
                         <p>{language.about.text[1][1]}</p>
                         <br />
                         <p>{language.about.text[1][2]}</p>
+                        <br />
+                        <p>{language.about.text[1][3]}</p>
                     </Text>
 
                     <SubTitle>{language.about.title[2]}</SubTitle>
