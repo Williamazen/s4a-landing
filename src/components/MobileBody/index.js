@@ -23,7 +23,7 @@ export default function DesktopBody(props) {
                         <Col gap={8}>
                             <Row gap={8}>
                                 {/*<DownloadButton href={links.appStore} size={16} label="App Store" icon={<BsApple size={"24px"} />} />*/}
-                                <DownloadButton href={links.playStore} size={13} label="Google Play" icon={<BsGooglePlay size={"24px"} />} />
+                                <DownloadButton href={links.playStore} size={13} label="Google Play" icon={<BsGooglePlay size={"24px"} />} disabled />
                                 <DownloadButton href={links.github} size={16} label="GitHub" icon={<BsGithub size={"24px"} />} />
                             </Row>
                             <WideButton href="/about" size={17} label={language.text.moreInfoButton} />
