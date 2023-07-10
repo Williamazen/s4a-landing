@@ -1,7 +1,7 @@
 import Socials from '../Socials'
 import DownloadButton from '../DonwloadButton'
 import { Container, Background, Logo, MainTitle, SubTitle, Highlights, Text, Row, Link } from './StyledAbout'
-import { BsGooglePlay, BsApple } from 'react-icons/bs';
+import { BsGooglePlay, BsApple, BsGithub } from 'react-icons/bs';
 import { links, language } from '../../global';
 
 export default function AboutBody() {
@@ -54,8 +54,8 @@ export default function AboutBody() {
                         {language.about.text[5]}
                     </Text>
                     <Row gap={8}>
-                        <DownloadButton href={links.playStore} size={13} label="Google Play" icon={<BsGooglePlay size={"24px"} />} role={language.alt.buttons.appStore} />
-                        <DownloadButton href={links.appStore} size={16} label="App Store" icon={<BsApple size={"24px"} />} role={language.alt.buttons.appStore} />
+                        <DownloadButton href={links.playStore} size={13} label="Google Play" icon={<BsGooglePlay size={"24px"} />} disabled />
+                        <DownloadButton href={links.github} size={16} label="GitHub" icon={<BsGithub size={"24px"} />} />
                     </Row>
                 </Container>
             </Row>

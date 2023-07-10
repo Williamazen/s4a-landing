@@ -3,7 +3,7 @@ const en = {
         mainTitle: "Lisbon's Beauty Accessible To ",
         titleHighlight: "All.",
         fullTitle: "Lisbon's Beauty Accessible To All.",
-        subTitle: "More than 50 locations mapped thinking of you",
+        subTitle: "More than 20 locations mapped thinking of you",
         moreInfoButton: "More info",
         partners: "Partners",
         copyright: "©" + new Date().getFullYear() + ". Creative Commons Attribution No Derivatives 4.0 International"

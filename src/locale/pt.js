@@ -3,7 +3,7 @@ const pt = {
         mainTitle: "A beleza de Lisboa acessível a ",
         titleHighlight: "Todos.",
         fullTitle: "A beleza de Lisboa acessível a Todos.",
-        subTitle: "Mais de 50 localidades mapeadas pensando em você.",
+        subTitle: "Mais de 20 localidades mapeadas pensando em você.",
         moreInfoButton: "Saiba Mais",
         partners: "Parcerias",
         copyright: "©" + new Date().getFullYear() + ". LICENÇA DE ATRIBUIÇÃO SEM DERIVAÇÕES 4.0 INTERNACIONAL DA CREATIVE COMMONS."
